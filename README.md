@@ -4,9 +4,9 @@
 
 ## مشاهده آنلاین
 
-**GitHub Pages:** https://mytesytgitacontu.github.io/under-the-noise-rain/
+**GitHub Pages:** https://mhdlabs.github.io/under-the-noise-rain/
 
-مخزن: https://github.com/mytesytgitacontu/under-the-noise-rain
+مخزن: https://github.com/MHDLabs/under-the-noise-rain
 
 ## اجرای محلی
 
@@ -44,4 +44,4 @@ python3 -m http.server 8080
 
 [سیاست حریم خصوصی](privacy.html) — آدرس عمومی برای اپ:
 
-`https://mytesytgitacontu.github.io/under-the-noise-rain/privacy.html`
+`https://mhdlabs.github.io/under-the-noise-rain/privacy.html`

@@ -1,10 +1,10 @@
 {
   "manifestFormat": 1,
-  "version": 4,
+  "version": 5,
   "config": {
-    "websiteUrl": "https://mytesytgitacontu.github.io/under-the-noise-rain/",
+    "websiteUrl": "https://mhdlabs.github.io/under-the-noise-rain/",
     "announcementText": "",
-    "aboutUs": "زیر بارانِ نویز — رمان پسارستاخیزی فارسی. حریم خصوصی: https://mytesytgitacontu.github.io/under-the-noise-rain/privacy.html",
+    "aboutUs": "زیر بارانِ نویز — رمان پسارستاخیزی فارسی. حریم خصوصی: https://mhdlabs.github.io/under-the-noise-rain/privacy.html",
     "enablePullToRefresh": false,
     "enableExitConfirmation": true,
     "enableShareApp": true,
