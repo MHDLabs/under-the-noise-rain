@@ -170,7 +170,7 @@
     return 0;
   }
 
-  var CONTENT_CACHE_NAME = 'under-noise-content-v4';
+  var CONTENT_CACHE_NAME = 'under-noise-content-v6';
 
   function fetchText(url, opts) {
     opts = opts || {};
