@@ -1,13 +1,47 @@
 /**
- * Persian webfonts (non-system).
- * Vazirmatn / Amiri / Naskh / Nastaliq → Google Fonts (index.html)
- * Gandom → jsDelivr (rastikerdar) — دست‌نویس فارسی
+ * Local Persian fonts (self-hosted).
+ * Bundled from amiryxe/next-persian-fonts (licenses in assets/fonts/*/).
+ * No CDN / Google Fonts dependency.
  */
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../assets/fonts/vazirmatn/Vazirmatn-VF.woff2") format("woff2-variations"),
+       url("../assets/fonts/vazirmatn/Vazirmatn-VF.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @font-face {
   font-family: "Gandom";
-  src: url("https://cdn.jsdelivr.net/gh/rastikerdar/gandom-font@master/dist/Gandom.woff2") format("woff2"),
-       url("https://cdn.jsdelivr.net/gh/rastikerdar/gandom-font@master/dist/Gandom.woff") format("woff");
+  src: url("../assets/fonts/gandom/Gandom.woff2") format("woff2");
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Amiri";
+  src: url("../assets/fonts/amiri/Amiri-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Amiri";
+  src: url("../assets/fonts/amiri/Amiri-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Nastaliq Urdu";
+  src: url("../assets/fonts/noto-nastaliq-urdu/NotoNastaliqUrdu-VF.woff2") format("woff2-variations"),
+       url("../assets/fonts/noto-nastaliq-urdu/NotoNastaliqUrdu-VF.woff2") format("woff2");
+  font-weight: 400 700;
   font-style: normal;
   font-display: swap;
 }
