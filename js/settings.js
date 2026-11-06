@@ -28,6 +28,10 @@
       family: "'Amiri', 'Noto Naskh Arabic', serif",
       weight: '400'
     },
+    tanha: {
+      family: "'Tanha', Tahoma, sans-serif",
+      weight: '400'
+    },
     gandom: {
       family: "'Gandom', Tahoma, sans-serif",
       weight: '400'
@@ -66,6 +70,7 @@
         var lower = out.fontFamily.toLowerCase();
         if (lower.indexOf('vazirmatn') !== -1) out.fontFamily = 'vazirmatn';
         else if (lower.indexOf('amiri') !== -1) out.fontFamily = 'amiri';
+        else if (lower.indexOf('tanha') !== -1) out.fontFamily = 'tanha';
         else if (lower.indexOf('gandom') !== -1) out.fontFamily = 'gandom';
         else if (lower.indexOf('nastaliq') !== -1) out.fontFamily = 'nastaliq';
         else out.fontFamily = 'system';

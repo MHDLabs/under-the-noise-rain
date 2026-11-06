@@ -2,8 +2,8 @@
  * Content chapters: network-first on each page load (refresh applies updates).
  * App shell: cache-first after first install.
  */
-var SHELL_CACHE = 'under-noise-shell-v8';
-var CONTENT_CACHE = 'under-noise-content-v8';
+var SHELL_CACHE = 'under-noise-shell-v9';
+var CONTENT_CACHE = 'under-noise-content-v9';
 
 var SHELL_URLS = [
   './',
